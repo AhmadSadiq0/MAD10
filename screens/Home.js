@@ -10,6 +10,9 @@ import * as Notifications from 'expo-notifications';
 import Constants from 'expo-constants';
 import axios from 'axios' ;
 export default function Home (props) {
+
+  alert('Hellooo World')
+
   let i = 10;
   console.log ('Parent re rendered');
   //useState hook is used to create a state
